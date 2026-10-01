@@ -35,10 +35,12 @@ nav a.lang:hover{border-color:rgba(255,255,255,.35)}
 
 /* hero */
 .hero{position:relative;isolation:isolate;padding:5rem 0}
+/* PLANET HIDDEN: remove this comment marker and its closing marker to bring the planet and ring back
 .hero::after{content:"";position:absolute;z-index:-1;top:0;right:0;width:min(22rem,55vw);aspect-ratio:1;border-radius:50%;
   background:radial-gradient(circle at 32% 28%,rgba(143,184,255,.35),rgba(143,184,255,.06) 45%,transparent 70%);
   box-shadow:inset 0 0 0 1px var(--line),0 0 120px rgba(143,184,255,.12)}
 .hero::before{content:"";position:absolute;z-index:-1;top:6rem;right:-1rem;width:min(30rem,75vw);height:min(8rem,20vw);border:1px solid var(--line);border-radius:50%;transform:rotate(-16deg)}
+*/
 .hero h1{font-size:clamp(2.8rem,9vw,5.5rem);letter-spacing:-.035em}
 .hero p.lead{font-size:1.25rem;margin:1.5rem 0 2rem;color:var(--muted);max-width:52ch}
 .btns{display:flex;gap:.75rem;flex-wrap:wrap}
