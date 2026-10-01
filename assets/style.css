@@ -9,8 +9,9 @@
   --ease:cubic-bezier(.4,0,.2,1);
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;background:radial-gradient(ellipse 70% 100% at 50% 0%,rgba(143,184,255,.14),transparent 70%) top/100% 90vh no-repeat,var(--bg)}
-body{margin:0;color:var(--ink);font:400 1.0625rem/1.7 var(--body);-webkit-font-smoothing:antialiased;overflow-x:clip}
+html{scroll-behavior:smooth;background:var(--bg)
+  /* GRADIENT HIDDEN: put this back to restore the glow at the top ;background:radial-gradient(ellipse 70% 100% at 50% 0%,rgba(143,184,255,.14),transparent 70%) top/100% 90vh no-repeat,var(--bg) */
+}body{margin:0;color:var(--ink);font:400 1.0625rem/1.7 var(--body);-webkit-font-smoothing:antialiased;overflow-x:clip}
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-size:420px 420px;background-image:
   radial-gradient(1px 1px at 12% 18%,rgba(255,255,255,.7),transparent),
   radial-gradient(1px 1px at 40% 62%,rgba(255,255,255,.5),transparent),
