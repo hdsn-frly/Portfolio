@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Currículum | Hudson Farley</title>
+<meta name="description" content="Hudson Farley: educación, experiencia y habilidades.">
+<link rel="stylesheet" href="../assets/style.css?v=3">
+</head>
+<body>
+<div class="wrap">
+
+  <nav aria-label="Principal">
+    <div class="links">
+      <a href="index.html">Inicio</a>
+      <a href="curriculum.html" aria-current="page" style="color:var(--ink)">Currículum</a>
+    </div>
+    <a class="lang" href="../curriculum.html" hreflang="en" lang="en">English</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Currículum</h2>
+    </section>
+
+    <section id="education">
+      <h2>Educación</h2>
+      <ul class="timeline">
+        <li><b>[Título], [Carrera]</b><span>[Universidad], [Año de inicio] a [Año de fin]</span></li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experiencia</h2>
+      <ul class="timeline">
+        <li><b>[Puesto o proyecto]</b><span>[Organización], [Fechas]</span>Una línea sobre lo que hiciste.</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Habilidades</h2>
+      <p>[Lenguajes, herramientas y fortalezas]</p>
+    </section>
+  </main>
+
+  <footer>&copy; 2026 Hudson Farley</footer>
+</div>
+</body>
+</html>
