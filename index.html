@@ -4,10 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hudson Farley | Portfolio</title>
-<meta name="description" content="Hudson Farley: contact information.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<meta name="description" content="Hudson Farley: about me and contact information.">
 <link rel="stylesheet" href="assets/style.css?v=3">
 <style>
   .portrait{width:9rem;aspect-ratio:1;border-radius:50%;overflow:hidden;border:1px dashed var(--line);background:var(--card);margin-bottom:1.75rem}
@@ -17,18 +14,29 @@
 </head>
 <body>
 <div class="wrap">
- 
+
+  <nav aria-label="Main">
+    <div class="links">
+      <a href="index.html" aria-current="page" style="color:var(--ink)">Home</a>
+      <a href="curriculum.html">Curriculum</a>
+    </div>
+    <a class="lang" href="es/index.html" hreflang="es" lang="es">Español</a>
+  </nav>
+
   <header class="hero">
     <div class="portrait"><img src="images/portrait.jpg" alt="Photo of Hudson Farley" onerror="this.remove()"></div>
     <h1>Hi, I'm <span>Hudson Farley</span></h1>
-   
   </header>
- 
+
   <main>
-    <!-- TODO: Email aint workin:( -->
+    <section id="about">
+      <h2>About me</h2>
+      <p>I'm a student with a strong interest in math, statistics, and programming. I like turning data into clear answers, and I'm looking for opportunities to put those skills to work.</p>
+    </section>
+
     <section id="contact" class="contact">
       <h2>Contact</h2>
-      <p>The fastest way to reach me is email.</p>
+      <p>The fastest way to reach me is email: <a href="mailto:hudson.farley1@gmail.com">hudson.farley1@gmail.com</a></p>
       <div class="btns">
         <a class="btn primary" href="mailto:hudson.farley1@gmail.com">Email me</a>
         <a class="btn" href="https://www.linkedin.com/in/hudson-farley-6917283b4/">LinkedIn</a>
@@ -36,7 +44,7 @@
       </div>
     </section>
   </main>
- 
+
   <footer>&copy; 2026 Hudson Farley</footer>
 </div>
 </body>
