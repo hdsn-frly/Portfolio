@@ -19,8 +19,8 @@ h1,h2,h3{font-family:Sora,system-ui,sans-serif;margin:0;line-height:1.1}
 p{max-width:34rem;margin:0 auto 1rem;color:#E4E8FF}
 
 /* nav */
-nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem 1rem;padding:1.5rem 0}
-nav .links{display:flex;gap:1.5rem;flex-wrap:wrap}
+nav{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:.75rem 1rem;padding:1.5rem 0}
+nav .links{display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap}
 nav a{text-decoration:none;font-size:.95rem;font-weight:600;color:var(--muted)}
 nav a[aria-current="page"]{color:var(--ink)}
 nav a.lang{color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:.15rem .9rem}
