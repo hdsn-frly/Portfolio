@@ -14,9 +14,9 @@ html{scroll-behavior:smooth;min-height:100%;background:
 body{margin:0;color:var(--ink);font:400 1.0625rem/1.7 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
-.wrap{max-width:44rem;margin:0 auto;padding:0 1.5rem}
+.wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem}
 h1,h2,h3{font-family:Sora,system-ui,sans-serif;margin:0;line-height:1.1}
-p{max-width:34rem;margin:0 auto 1rem;color:#E4E8FF}
+p{max-width:46rem;margin:0 auto 1rem;color:#E4E8FF}
 
 /* nav */
 nav{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:.75rem 1rem;padding:1.5rem 0}
@@ -52,3 +52,5 @@ main h2{font-size:1.6rem;font-weight:700;letter-spacing:-.02em;margin-bottom:1re
 main img{margin-left:auto!important;margin-right:auto!important}
 
 footer{padding:2rem 0 2.5rem;text-align:center;color:var(--muted);font-size:.9rem}
+/* wider essay, project cards, and concentration box */
+main .essay,main .proj,main .feature{max-width:46rem}
